@@ -13,7 +13,7 @@ public class SimulacaoBancaria {
             System.out.println("Digite: 1 - Depositar");
             System.out.println("Digite: 2 - Sacar");
             System.out.println("Digite: 3 - Consultar Saldo");
-            System.out.println("Digite: 4 - Encerrar");
+            System.out.println("Digite: 0 - Encerrar");
             int opcao = scanner.nextInt();
 
             switch (opcao) {
