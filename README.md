@@ -6,8 +6,7 @@ DIO - Digital Innovation One
 ## Sintaxe
 Exercitar todo o conteúdo apresentado no módulo de Controle de Fluxo.
 
-## Condições, Loops e execeções na Prática com Java
-1 / 5 - Operações Bancárias Simples com Switch.
+## Condições, Loops e execeções na Prática com Java<br>1 / 5 - Operações Bancárias Simples com Switch.
 
 ### Descrição
 Você está desenvolvendo um programa simples em Java para simular operações bancárias básicas.
@@ -40,8 +39,7 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 | 100         |                     | 0           |                     | 0           |                     |
 | 0           |                     |             |                     |             |                     |
 
-## Condições, Loops e execeções na Prática com Java
-2 / 5 - Verificação de Número de Conta Bancária
+## Condições, Loops e execeções na Prática com Java<br>2 / 5 - Verificação de Número de Conta Bancária
 
 ### Descrição
 Você está desenvolvendo um programa simples em Java para verificar se um número de conta bancária é válido. O número da conta deve ter exatamente 8 dígitos.
