@@ -61,4 +61,28 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 | <p>1234568<br></p>     | <p>Erro: Numero de conta invalido <br> Digite exatamente 8 digitos </p>  |         
 | 3231                   | <p>Erro: Numero de conta invalido <br> Digite exatamente 8 digitos </p>  |
 
+## Condições, Loops e execeções na Prática com Java<br>3 / 5 - Verificador de Idade para Conta bancária
+
+### Descrição
+Você está desenvolvendo um programa simples em Java para verificar se um cliente é elegível para criar uma conta bancária.<br> A condição é que o cliente deve ter pelo menos 18 anos de idade.
+
+### Entrada
++ O programa solicitará ao usuário que digite sua idade.
+
+### Saída
++ Utilizando apenas um bloco _if_ e _else_, o programa verificará se a idade do cliente é igual ou superior a 18 anos.
++ Se a idade for maior ou igual a 18, o programa informará que o cliente é elegível para criar uma conta bancária.
++ Se a idade for menor que 18, o programa informará que o cliente não é elegível para criar uma conta bancária.
+ 
+### Exemplo
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+| **Entrada**       | **Saída**                                                         | 
+|-------------------|-------------------------------------------------------------------|
+| <p>17<br></p>     | <p>Voce nao esta elegivel para criar<br> uma conta bancaria.</P>  |
+| <p>26<br></p>     | <p>Voce nao esta elegivel para criar<br> uma conta bancaria.</P>  |  
+| 18                | <p>Voce esta elegivel para criar<br> uma conta bancaria.</P>      |
+
+
+
 
