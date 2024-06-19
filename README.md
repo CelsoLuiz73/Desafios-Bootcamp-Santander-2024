@@ -28,7 +28,7 @@ A aplicação deve permitir ao usuário realizar depósitos, saques e consultar 
   + 3: O programa apenas exibirá o saldo atual da conta: "Saldo atual: {saldo com 1 casa decimal}".
   + 0: O programa encerrará, imprimindo "Programa encerrado.".
  
-### Exemplo
+### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
 | **Entrada** | **Saída**           | **Entrada** | **Saída**           | **Entrada** | **Saída**           |
@@ -38,6 +38,7 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 | 2           | Programa encerrado  | 550         | Programa encerrado  | 2           | Programa encerrado  |
 | 100         |                     | 0           |                     | 0           |                     |
 | 0           |                     |             |                     |             |                     |
+
 
 ## Condições, Loops e execeções na Prática com Java<br>2 / 5 - Verificação de Número de Conta Bancária
 
@@ -52,7 +53,7 @@ Você está desenvolvendo um programa simples em Java para verificar se um núme
 + Se o número da conta tiver 8 dígitos, o programa informará que é um número válido.
 + Se o número da conta não tiver 8 dígitos, o programa lançará uma exceção (por exemplo, _IllegalArgumentException_) e informará que o número da conta é inválido.
  
-### Exemplo
+### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
 | **Entrada** | **Saída**                                        | 
@@ -60,6 +61,7 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 | 01020304               | Numero de conta valido                |
 | <p>1234568<br></p>     | <p>Erro: Numero de conta invalido <br> Digite exatamente 8 digitos </p>  |         
 | 3231                   | <p>Erro: Numero de conta invalido <br> Digite exatamente 8 digitos </p>  |
+
 
 ## Condições, Loops e execeções na Prática com Java<br>3 / 5 - Verificador de Idade para Conta bancária
 
@@ -74,7 +76,7 @@ Você está desenvolvendo um programa simples em Java para verificar se um clien
 + Se a idade for maior ou igual a 18, o programa informará que o cliente é elegível para criar uma conta bancária.
 + Se a idade for menor que 18, o programa informará que o cliente não é elegível para criar uma conta bancária.
  
-### Exemplo
+### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
 | **Entrada**       | **Saída**                                                         | 
@@ -82,14 +84,6 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 | <p>17<br></p>     | <p>Voce nao esta elegivel para criar<br> uma conta bancaria.</P>  |
 | <p>26<br></p>     | <p>Voce nao esta elegivel para criar<br> uma conta bancaria.</P>  |  
 | 18                | <p>Voce esta elegivel para criar<br> uma conta bancaria.</P>      |
-
-
-
-
-
-
-
-
 
 
 ## Condições, Loops e execeções na Prática com Java<br>4 / 5 - Verificador de Cheque Especial
@@ -110,7 +104,7 @@ O limite do cheque especial será definido como 500 unidades monetárias.
   + Se ultrapassar, o programa informará que a transação não pode ser realizada devido ao limite excedido.
   + Caso contrário, o programa informará que a transação foi realizada com sucesso, utilizando o cheque especial.
  
-### Exemplo
+### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
 | **Entrada**           | **Saída**                                                              | 
@@ -120,9 +114,26 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 | <p>300<br>1500</p>    | <p>Transação não realizada. Limite do<br>cheque especial excedido.</P> |
 
 
+## Condições, Loops e execeções na Prática com Java<br>5 / 5 - Controle de Saques
 
+### Descrição
+Você está desenvolvendo um programa simples em Java para auxiliar um cliente a realizar saques de uma conta bancária. O cliente pode fazer saques até atingir um limite diário predefinido.
 
+### Entrada
++ O programa solicitará ao usuário que informe o limite diário de saque.
++ Em seguida, o programa solicitará ao usuário que informe o valor do primeiro saque.
 
+### Saída
++ Utilizando um laço _for_, o programa iterará sobre os saques.
++ Para cada saque, o programa verificará se o valor ultrapassa o limite diário.
+  + Se ultrapassar, o programa informará que o limite foi atingido e encerrará o loop.
+  + Se não ultrapassar, o programa informará que o saque foi realizado com sucesso.
+ 
+### Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-
-
+| **Entrada** | **Saída**                          | **Entrada** | **Saída**                           | **Entrada** | **Saída**                         |
+|-------------|------------------------------------|-------------|-------------------------------------|-------------|-----------------------------------|
+| 1500        | Saque realizado. Limite restante:  | 500         | Limite diario de saque atingido.    | 80          | Saque realizado. Limite restante: |
+| 430         | 1070.0                             | 1500        | Transacoes encerradas.              | 40          | 40.0                              |
+| 0           | Transacoes encerradas.             |             |                                     | 0           | Transacoes encerradas.            |
